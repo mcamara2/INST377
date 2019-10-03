@@ -1,8 +1,9 @@
 body {
-  background-color: #000000;
+  background-color:black;
+  color: white;
 }
 .Maimouna{
-  background-color: blue;
+  background-color:blue;
   text-align: center;
 }
 .Maimouna h1 {
@@ -11,14 +12,16 @@ body {
 .container {
   margin: auto;
   width: 60%;
+  text-align: center;
 }
 
 .information {
-  float: right;
+  margin: auto;
   width: 45%;
   text-align: center;
   font-style: oblique;
   border: 5px solid white;
+  bottom: 50px;
 }
 h2 {
   text-align: center;
@@ -32,13 +35,23 @@ ul {
   margin-left: 40px;
   list-style-type: lower-roman;
   text-align: left;
+  list-style-type: square;
+
+}
+li {
+  list-style-type: upper-alpha;
 }
 
-.image {
-  float: left;
-  width: 50%;
+#me {
+  height: 200px;
+  width: 200px;
+  top: 50%;
+  right: 50%;
+
+
+
 }
-.allmight {
+/* .allmight {
   width: 400px;
   height: 600px;
-}
+ } */
